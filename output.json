@@ -1,0 +1,36 @@
+{
+    "key1": {
+        "_content": "value1",
+        "_type": "<class 'str'>"
+    },
+    "key2": {
+        "subkey1": {
+            "_content": 1,
+            "_type": "<class 'int'>"
+        },
+        "subkey2": {
+            "_content": "value2",
+            "_type": "<class 'str'>"
+        },
+        "subkey3": {
+            "subsubkey1": [
+                1,
+                2,
+                3
+            ],
+            "subsubkey2": true
+        }
+    },
+    "key3": {
+        "_content": [
+            1,
+            2,
+            3
+        ],
+        "_type": "<class 'list'>"
+    },
+    "key4": {
+        "_content": true,
+        "_type": "<class 'bool'>"
+    }
+}
